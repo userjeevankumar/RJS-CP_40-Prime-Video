@@ -1,0 +1,49 @@
+/* Write your CSS here */
+.popup-container {
+  background-color: #ffffff;
+  width: 750px;
+  height: 450px;
+  border-radius: 14px;
+}
+
+.modal-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.player-container {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  margin-top: 14px;
+}
+
+.btn-close {
+  background-color: transparent;
+  height: 30px;
+  width: 30px;
+  align-self: flex-end;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.thumbnail {
+  height: 150px;
+  width: 200px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+@media (min-width: 1200px) {
+  .thumbnail {
+    height: 180px;
+    width: 250px;
+    padding-right: 26px;
+  }
+}
